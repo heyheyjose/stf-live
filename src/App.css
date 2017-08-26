@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.App-logo {
+  width: 15%;
+}
+
+.App-header {
+  /*background-color: #222;*/
+  /*height: 150px;*/
+  padding: 20px;
+  /*color: white;*/
+}
+
+p {
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.section-main {
+  background: 0 0;
+  color: #fff;
+  border-radius: 0;
+  padding: 0;
+  border-bottom: solid 4px;
+}
+
+.section-main a {
+  display: block;
+  padding: 20px 5px 20px 10px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-main a span {
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.fa {
+  opacity: 0.5;
+}
+
+.fa-close {
+  float: right;
+  right: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.message {
+  background-color: #ffc72a;
+  border-color: #e2a600;
+}
+
+.message-content-section {
+  padding: 15px;
+  background-color: #ffd358;
+}
+
+.news {
+  background-color: #ff5200;
+  border-color: #e64a00;
+}
+
+.news-content-section {
+  padding: 15px;
+  background-color: #ff8247;
+}
+
+.giving {
+  background-color: #9daf21;
+  border-color: #8a9a1d;
+}
+
+.giving-content-section {
+  padding: 15px;
+  background-color: #cede5f;
+}
+
+.sections {
+  background-color: #eb0045;
+  border-color: #d2003e;
+}
+
+.sections-content-section {
+  padding: 15px;
+  background-color: #ff6290;
+}
+
+.groups {
+  background-color: #0091c9;
+  border-color: #007fb0;
+}
+
+.groups-content-section {
+  padding: 15px;
+  background-color: #38bcef;
+}
+
+.connect {
+  background-color: #805475;
+  border-color: #714a67;
+}
+
+.connect-content-section {
+  padding: 15px;
+  background-color: #d482bf;
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .section-main a span {
+    font-size: 24px;
+  }
+}
